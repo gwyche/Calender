@@ -8,16 +8,16 @@ body{
     color: rgb(100, 100, 120);
     margin-left: 1px;
     margin-bottom: 1px;
-    height: 500px !important;
+    height: 240px !important;
     padding-top: 10px;
 }
 
 .thickrow{
-    height: 75px;
+    height: 10px;
 }
 
 h2{
-    color: rgb(255, 0, 221);
+    color: rgb(255, 0, 251);
 }
 
 
@@ -41,7 +41,12 @@ button{
 
 .h2{
     position: relative;
-    left: 18%;
+    left: 40%;
+}
+
+iframe{
+    width: 600px;
+    height: 400px;
 }
 
 
