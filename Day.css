@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(15, 15, 15) !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.day{
+    background-color: rgb(38, 38, 38) !important;
+    color: rgb(100, 100, 120);
+    margin-left: 1px;
+    margin-bottom: 1px;
+    height: 500px !important;
+    padding-top: 10px;
+}
+
+.thickrow{
+    height: 75px;
+}
+
+h2{
+    color: rgb(0, 255, 217);
+}
+
+
+
+input, textarea{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+    background-color: rgb(220, 220, 220) !important;
+    border-width: 0px !important;
+}
+
+button{
+    border-color: rgb(0, 255, 217) !important;
+    border-width: 1px !important;
+    font-size: small !important;
+}
+
+.col-lg-4{
+    position: relative;
+}
+
+.h2{
+    position: relative;
+    left: 18%;
+}
+
+
+
