@@ -24,3 +24,14 @@ h1{
 }
 
 
+.d10{
+    background-color: rgb(38,38,50) !important;
+}
+
+.d11, .d18, .d20{
+    background-color: rgb(38,50,38) !important;
+}
+
+.d19{
+    background-color: rgb(50,38,38) !important;
+}
