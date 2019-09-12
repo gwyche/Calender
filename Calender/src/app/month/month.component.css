@@ -15,6 +15,12 @@ body{
     margin-bottom: 1px;
 }
 
+a{
+    color: rgb(100, 100, 120);
+    font-size: small;
+    text-decoration: none;
+}
+
 .thickrow{
     height: 75px;
 }
@@ -25,7 +31,7 @@ h1{
 
 
 .d10{
-    background-color: rgb(38,38,50) !important;
+    background-color: rgb(50,38,38) !important;
 }
 
 .d11, .d18, .d20{
@@ -33,5 +39,5 @@ h1{
 }
 
 .d19{
-    background-color: rgb(50,38,38) !important;
+    background-color: rgb(38,38,38) !important;
 }

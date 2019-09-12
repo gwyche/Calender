@@ -8,10 +8,10 @@ export class month_data{
 
 
 
+
     //No arg contructor//////
-    constructor(start){
-        this.populateMonth();  //Places day_data objects in the every element of dayList
-        this.startNumber = start;  //Sets the first day of the month
+    constructor(){
+        this.startNumber = 0;  //Sets the first day of the month
     }
 
 
@@ -25,12 +25,13 @@ export class month_data{
     }
 
     //Setters////////////////////
-    setStartNumber(input): void{
+    setStartNumber(input: number): void{
         this.startNumber = input;
     }
 
     addAppointment(input: day_data, date: number): void{
         this.dayList[date + this.startNumber] = input;
+        this.dayList[date + this.startNumber].setAssigned();
     }
 
     //OTHER METHOD TYPES
@@ -40,6 +41,16 @@ export class month_data{
             let day = new day_data();
             this.dayList[i] = day;
         }
+    }
+
+    locateAppts(): boolean[]{
+        var date_array: boolean[];
+        for(let i = 0; i < 35; i++){
+          if(this.dayList[i].assigned == true){
+            date_array[i] = true;
+          }
+        }
+        return date_array;
     }
 
 

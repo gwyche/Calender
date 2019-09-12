@@ -9,7 +9,7 @@ const routes: Routes = [
   {path: 'month', component: MonthComponent},
   {path: 'day', component: DayComponent},
   {path: 'map', component: MapComponent},
-  {path: '', component: MapComponent}
+  {path: '', component: MonthComponent}
 ];
 
 @NgModule({

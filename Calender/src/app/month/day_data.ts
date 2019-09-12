@@ -2,11 +2,12 @@
 export class day_data{
 
     //Parameters/////////////
-    id: number;
+    id: number = 0;
     purpose: string = "";
-    time: number;
+    time: number = 0;
     travel_time: number;
     notes: string = "";
+    assigned: boolean = false;
 
     //No arg contructor//////
     constructor(){}
@@ -33,6 +34,10 @@ export class day_data{
         return this.notes;
     }
 
+    getAssigned(): boolean{
+        return this.assigned;
+    }
+
 
 
     //Setters////////////////
@@ -54,6 +59,10 @@ export class day_data{
 
     setNotes(input): void{
         this.notes = input;
+    }
+
+    setAssigned(): void{
+        this.assigned = true;
     }
 
 
